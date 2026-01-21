@@ -1,0 +1,29 @@
+{
+  "name": "lab-2-test-driven-development-ctdave001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkCollege-CSE-SoftwareEngineering/lab-2-test-driven-development-CTDave001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClarkCollege-CSE-SoftwareEngineering/lab-2-test-driven-development-CTDave001/issues"
+  },
+  "homepage": "https://github.com/ClarkCollege-CSE-SoftwareEngineering/lab-2-test-driven-development-CTDave001#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.17",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
+  }
+}
